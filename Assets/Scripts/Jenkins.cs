@@ -19,7 +19,7 @@ public class Jenkins
         }
         options.scenes = scenes.ToArray();
         // 타겟 경로(빌드 결과물이 여기 생성됨)
-        options.locationPathName = "UnityWindowsBuild"; // 241123 path 
+        options.locationPathName = "C:/Builds/UnityWindowsBuild/Build.exe";
         // 빌드 타겟
         options.target = BuildTarget.StandaloneWindows64;
 
